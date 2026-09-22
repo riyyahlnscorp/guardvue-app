@@ -42,9 +42,16 @@ export default function Footer() {
 
       <div className="footer-bottom">
   <div className="footer-bottom-brand">
-    <img src={psgLogo} alt="Premium Safety Glass" className="psg-logo" />
-    <p>A product of Premium Safety Glass (PTY) Ltd.</p>
-  </div>
+    <a href="https://premiumsafetyglass.co.za/" target="_blank" rel="noopener noreferrer">
+      <img src={psgLogo} alt="Premium Safety Glass" className="psg-logo" />
+    </a>
+    <p>
+      A product of{' '}
+      <a href="https://premiumsafetyglass.co.za/" target="_blank" rel="noopener noreferrer">
+        Premium Safety Glass (PTY) Ltd.
+      </a>
+    </p>
+</div>
   <p>
   © 2026 GuardVue. All rights reserved. · Powered by{' '}
   <a href="https://stearnsmedia.com/" target="_blank" rel="noopener noreferrer">
