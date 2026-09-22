@@ -664,3 +664,13 @@ textarea.field{resize:vertical; min-height:80px; font-family:'Inter',sans-serif;
     padding:0 20px !important;
   }
 }
+.dropdown-arrow {
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 0.7em;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+.dropdown-arrow.open {
+  transform: rotate(180deg);
+}

@@ -25,7 +25,19 @@ export default function Header() {
           onMouseEnter={() => setOpen(true)}
           onMouseLeave={() => setOpen(false)}
         >
-          <Link to="/solutions" onClick={closeMobile}>SOLUTIONS</Link>
+          <Link to="/solutions" onClick={closeMobile} className="solutions-link">
+  SOLUTIONS
+  <span
+    className={`dropdown-arrow ${open ? 'open' : ''}`}
+    onClick={(e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      setOpen(!open);
+    }}
+  >
+    ▾
+  </span>
+</Link>
           {open && (
             <div className="dropdown-menu">
               {solutions.map(s => (
