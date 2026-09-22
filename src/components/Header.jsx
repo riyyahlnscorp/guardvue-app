@@ -18,7 +18,7 @@ export default function Header() {
       </Link>
 
       <nav className={mobileOpen ? 'mobile-open' : ''}>
-        <Link to="/" onClick={closeMobile}>HOME</Link>
+        
 
         <div
           className="nav-dropdown"

@@ -106,16 +106,12 @@ async function handleSubmit(e) {
             <div className="stat-label">A product of Premium Safety Glass</div>
             </div>
             <div className="stat-card">
-              <div className="stat-number">500+</div>
+              <div className="stat-number">50+</div>
               <div className="stat-label">Projects completed</div>
             </div>
             <div className="stat-card">
-              <div className="stat-number">8</div>
+              <div className="stat-number">7</div>
               <div className="stat-label">Specialized product lines</div>
-            </div>
-            <div className="stat-card">
-              <div className="stat-number">24/7</div>
-              <div className="stat-label">Client support</div>
             </div>
           </div>
         </div>
