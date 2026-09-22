@@ -12,7 +12,7 @@ import mirrorGlass from '../assets/mirror-glass.jpg';
 
 const heroImages = {
   "ballistic-glass": ballisticGlass,
-  "acoustic-glass": acousticGlass,
+  "thermal-glass": acousticGlass,
   "pool-glass": poolGlass,
   "clear-glass": clearGlass,
   "toughened-glass": toughenedGlass,

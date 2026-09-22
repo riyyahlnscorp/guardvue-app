@@ -22,10 +22,10 @@ const solutions = [
   ]
 },
 {
-  slug: "acoustic-glass",
-  name: "Acoustic Glass",
+  slug: "thermal-glass",
+  name: "Thermal Glass",
   tagline: "Sealed insulated glass units.",
-  description: "Sealed Insulated Glass Units (SIGUs) are one of the most effective ways to cut air-to-air thermal transfer through glazing. Acoustic Glass traps a layer of dried air between two panes to prevent convection currents from forming, and pairs with low-emissivity coatings to reduce radiant heat transfer even further — keeping interiors cooler in summer and warmer in winter, without sacrificing natural light.",
+  description: "Sealed Insulated Glass Units (SIGUs) are one of the most effective ways to cut air-to-air thermal transfer through glazing. Thermal Glass traps a layer of dried air between two panes to prevent convection currents from forming, and pairs with low-emissivity coatings to reduce radiant heat transfer even further — keeping interiors cooler in summer and warmer in winter, without sacrificing natural light.",
   features: [
     "Advanced thermal insulation, reducing heating and cooling costs",
     "Enhanced sound reduction between spaces",
